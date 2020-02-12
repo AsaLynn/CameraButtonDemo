@@ -22,4 +22,5 @@ android {
 dependencies {
     implementation project(':camera-button')
     implementation 'androidx.appcompat:appcompat:1.1.0'
+    //implementation 'com.zxn.camerabutton:camera-button:1.0.0'
 }

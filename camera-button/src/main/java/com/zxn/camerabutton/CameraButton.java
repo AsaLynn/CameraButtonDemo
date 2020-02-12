@@ -265,21 +265,21 @@ public class CameraButton extends View {
         /**
          * 单击
          *
-         * @param photoButton
+         * @param photoButton CameraButton
          */
         void onClick(CameraButton photoButton);
 
         /**
          * 长按
          *
-         * @param photoButton
+         * @param photoButton CameraButton
          */
         void onLongClick(CameraButton photoButton);
 
         /**
          * 长按抬起
          *
-         * @param photoButton
+         * @param photoButton CameraButton
          */
         void onLongClickUp(CameraButton photoButton);
 
