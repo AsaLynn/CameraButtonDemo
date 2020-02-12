@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CameraButtonDemo.iml" filepath="$PROJECT_DIR$/CameraButtonDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/CameraButtonDemo-app.iml" filepath="$PROJECT_DIR$/app/CameraButtonDemo-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoButton2.iml" filepath="$PROJECT_DIR$/PhotoButton2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camera-button/camera-button.iml" filepath="$PROJECT_DIR$/camera-button/camera-button.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camera-button/takephotoview.iml" filepath="$PROJECT_DIR$/camera-button/takephotoview.iml" />
+    </modules>
+  </component>
+</project>

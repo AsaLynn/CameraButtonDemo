@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CameraButton">
+        <!--外圆颜色-->
+        <attr name="outCircleColor" format="color" />
+        <!--内圆颜色-->
+        <attr name="innerCircleColor" format="color" />
+        <!--进度条颜色-->
+        <attr name="readColor" format="color" />
+        <!--录制时间-->
+        <attr name="maxSeconds" format="integer" />
+        <!--内圆形状类型：默认是圆形-->
+        <attr name="innerType" format="enum">
+            <!-- 圆形. -->
+            <enum name="circle" value="0" />
+            <!-- 矩形. -->
+            <enum name="rect" value="1" />
+        </attr>
+        <!--长按的是否放大-->
+        <attr name="scaleEnabled" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <com.zxn.camerabutton.CameraButton
+        android:id="@+id/button_take"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        app:innerCircleColor="@android:color/white"
+        app:outCircleColor="@android:color/holo_red_light"
+        app:readColor="@android:color/holo_red_light" />
+
+    <com.zxn.camerabutton.CameraButton
+        android:id="@+id/normal_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true" />
+
+    <com.zxn.camerabutton.CameraButton
+        android:id="@+id/cbtn_bottom"
+        android:layout_width="100dp"
+        app:scaleEnabled="false"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        app:innerCircleColor="@android:color/white"
+        app:innerType="rect"
+        app:maxSeconds="2"
+        app:outCircleColor="@android:color/holo_red_light"
+        app:readColor="@android:color/holo_red_light" />
+
+    <ImageView
+        android:id="@+id/iv_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone" />
+
+</RelativeLayout>
+
